@@ -1,0 +1,82 @@
+/* Global layout */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f7;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Navigation bar */
+div a {
+    text-decoration: none;
+    padding: 10px 16px;
+    background: #0077cc;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+div a:hover {
+    background: #005fa3;
+}
+
+/* Title */
+h3 {
+    color: #0077cc;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* The form table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+table th {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Input fields */
+input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background: #28a745;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background: #218838;
+}
+
+input[type="reset"] {
+    background: #dc3545;
+    color: white;
+}
+
+input[type="reset"]:hover {
+    background: #c82333;
+}

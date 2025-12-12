@@ -1,0 +1,196 @@
+body {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Wrap both error + table */
+.container {
+    text-align: center;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/*/Reset some default spacing
+/* body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+//}
+ */
+/* Container table */
+table {
+    background: #fff;
+    border-collapse: collapse;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table headers */
+th {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Title row */
+th[colspan="2"] {
+    background: #0077cc;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background: #28a745;
+    color: white;
+}
+
+input[type="reset"] {
+    background: #dc3545;
+    color: white;
+}
+
+/* Hover effects */
+input[type="submit"]:hover {
+    background: #218838;
+}
+
+input[type="reset"]:hover {
+    background: #c82333;
+}
+
+/* Error message */
+h3 {
+    color: red;
+    text-align: center;
+}
+
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f7;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Navigation bar */
+div a {
+    text-decoration: none;
+    padding: 10px 16px;
+    background: #0077cc;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+div a:hover {
+    background: #005fa3;
+}
+
+/* Titles */
+h2 {
+    color: #0077cc;
+    margin-top: 30px;
+}
+
+/* Search table */
+table {
+    border-collapse: collapse;
+    background: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Dropdown styling */
+select {
+    padding: 8px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Buttons */
+input[type="submit"] {
+    padding: 8px 18px;
+    background: #28a745;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    background: #1e7e34;
+}
+
+/* Students table */
+table:nth-of-type(2) th,
+table:nth-of-type(2) td {
+    text-align: center;
+}
+
+table:nth-of-type(2) tr:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+table:nth-of-type(2) tr:hover {
+    background: #eef6ff;
+}
+
+/* Header row */
+table:nth-of-type(2) tr:first-child {
+    background: #0077cc;
+    color: white;
+    font-weight: bold;
+}
+
+/* le style pour saisie.php*/
+

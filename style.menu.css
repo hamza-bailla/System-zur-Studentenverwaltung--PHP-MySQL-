@@ -1,0 +1,28 @@
+/* Whole page style */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f7;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Navigation bar container */
+div {
+    margin-top: 20px;
+}
+
+/* Navigation links */
+div a {
+    text-decoration: none;
+    padding: 10px 16px;
+    background: #0077cc;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+div a:hover {
+    background: #005fa3;
+}
